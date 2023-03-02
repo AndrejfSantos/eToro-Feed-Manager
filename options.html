@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eToro Feed Manager Options</title>
+<style>
+html{
+	font-size: 175%
+}
+.blockList{
+	overflow: scroll;
+    max-height: 200px;
+	padding: 5px;
+    border: 1px solid #ccc!important;
+}
+.content {
+	margin: auto;
+	max-width: 600px;
+	padding-top: 25px;
+}
+.vertical-menu {
+	padding: 5px;
+	display: block;
+}
+
+</style>
+</head>
+<body class="content">
+
+<h2>eToro Feed Manager Options</h2>
+
+
+<label class="vertical-menu">
+  <input type="checkbox" id="myPortfolioCB">
+  remove My Portfolio Posts.
+  <div>if it has "My portfolio is" and "check it out" its removed , currently english only</div>
+</label>
+
+<div class="content"> 
+<label class="vertical-menu">Blocked people:</label>
+  <div>Posts made by these people will be removed</div>
+<div id="blockedPeople" class="blockList">
+
+</div>
+  <label for="fname">Add person:</label>
+  <input type="text" id="newPerson"><br><br>
+</div>
+
+
+<div class="content"> 
+<label class="vertical-menu">Blocked Assets:</label>
+<div>Posts with these tags will be removed</div>
+<div id="blockedAssets" class="blockList">
+
+</div>
+  <label for="fname">Add asset:</label>
+  <input type="text" id="newAsset"><br><br>
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>
