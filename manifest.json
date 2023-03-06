@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "eToro Feed Manager",
   "description": "Enable more control of the eToro feed using blacklists of users, and other options.",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "32": "images/icon-32.png",
     "128": "images/icon-128.png"
